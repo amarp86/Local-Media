@@ -32,3 +32,27 @@ Schedule and Goals:
 | 2/19/2021 | Initial Deployment | Pending |
 | 2/22/2021 | Meet MVP Deliverables | Pending |
 | 2/23/2021 | Presentations/Submission | Pending |
+
+Priority Matrix:
+
+Timeframes:
+
+Timeframes:
+| Component | Priority | Estimate Time | Time Invested | Actual Time |
+| ------------------------------- | :------: | :-----------: | :-----------: | :---------: |
+| Setting Up Basic Layout | H | 2 Hr | TBD | TBD |
+| Accessing API | H | 3 Hr | TBD | TBD |
+| JS API Initial Get Request | H | 3 Hr | TBD | TBD |
+| Parsing API Data | H | 3 Hr | TBD | TBD |
+| Creating React Elements | H | 3 Hr | TBD | TBD |
+| React Route/Links | H | 3 Hr | TBD | TBD |
+| React Post Component | H | 3 Hr | TBD | TBD |
+| React Header/Footer | M | 3 Hr | TBD | TBD |
+| CSS Styling DESKTOP | H | 3 Hr | TBD | TBD |
+| CSS Styling MOBILE | H | 3 Hr | TBD | TBD |
+| POST MVP - Ranking Order | L | 3 Hr | TBD | TBD |
+| UI/UX breakpoints | M | 3 Hr | TBD | TBD|
+| Testing React Components | H | 3 Hr | TBD | TBD |
+| Testing CSS breakpoints | M | 3 Hr | TBD | TBD |
+| Hosting Final Product | M | 3 Hr | TBD | TBD |
+| Total Time | | 44 Hrs | TBD | TBD |
