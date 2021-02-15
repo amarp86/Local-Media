@@ -4,7 +4,7 @@ Link to Deployed Site:
 
 App Description: Web-App that allows users to post reviews about different cities they have visited.
 
-API Snippet: `{ "records": [ { "id": "recnuEEpUThXAb8L4", "fields": { "location": "NYC", "username": "nyctraveler", "review": "lot of pigeons, smells like the juice that leaks from garbage trucks", "links": "https://s7d2.scene7.com/is/image/TWCNews/ezjmqwmx0amjjaieditedjpg?wid=1250&hei=703&$wide-bg$" }, "createdTime": "2021-02-15T22:35:02.000Z" }, { "id": "rectmn3ASoo4htogn", "fields": { "location": "Boston", "username": "redsox4lyfe\n", "review": "cobblestone streets everywhere!" }, "createdTime": "2021-02-15T22:35:02.000Z" }, { "id": "reckH9usYbx4kWHeb", "fields": { "location": "San Diego", "username": "feedmetacos\n\n", "review": "everyday is friday!" }, "createdTime": "2021-02-15T22:35:02.000Z" } ], "offset": "reckH9usYbx4kWHeb" }`
+API Response: `{ "records": [ { "id": "recnuEEpUThXAb8L4", "fields": { "location": "NYC", "username": "nyctraveler", "review": "lot of pigeons, smells like the juice that leaks from garbage trucks", "links": "https://s7d2.scene7.com/is/image/TWCNews/ezjmqwmx0amjjaieditedjpg?wid=1250&hei=703&$wide-bg$" }, "createdTime": "2021-02-15T22:35:02.000Z" }, { "id": "rectmn3ASoo4htogn", "fields": { "location": "Boston", "username": "redsox4lyfe\n", "review": "cobblestone streets everywhere!" }, "createdTime": "2021-02-15T22:35:02.000Z" }, { "id": "reckH9usYbx4kWHeb", "fields": { "location": "San Diego", "username": "feedmetacos\n\n", "review": "everyday is friday!" }, "createdTime": "2021-02-15T22:35:02.000Z" } ], "offset": "reckH9usYbx4kWHeb" }`
 
 Wireframes:
 
@@ -42,11 +42,12 @@ Timeframes:
 | ------------------------------- | :------: | :-----------: | :-----------: | :---------: |
 | Setting Up Basic Layout | H | 2 Hr | TBD | TBD |
 | Accessing API | H | 3 Hr | TBD | TBD |
-| JS API Initial Get Request | H | 3 Hr | TBD | TBD |
+| JS/React API Initial Get Request | H | 3 Hr | TBD | TBD |
 | Parsing API Data | H | 3 Hr | TBD | TBD |
 | Creating React Elements | H | 3 Hr | TBD | TBD |
 | React Route/Links | H | 3 Hr | TBD | TBD |
 | React Post Component | H | 3 Hr | TBD | TBD |
+| React/JS post/put/delete calls | H | 3 Hr | TBD | TBD |
 | React Header/Footer | M | 3 Hr | TBD | TBD |
 | CSS Styling DESKTOP | H | 3 Hr | TBD | TBD |
 | CSS Styling MOBILE | H | 3 Hr | TBD | TBD |
@@ -55,4 +56,6 @@ Timeframes:
 | Testing React Components | H | 3 Hr | TBD | TBD |
 | Testing CSS breakpoints | M | 3 Hr | TBD | TBD |
 | Hosting Final Product | M | 3 Hr | TBD | TBD |
-| Total Time | | 44 Hrs | TBD | TBD |
+| Total Time | | 47 Hrs | TBD | TBD |
+
+Code Snippet from App:
