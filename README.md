@@ -56,4 +56,11 @@ Timeframes:
 | Hosting Final Product | M | 3 Hr | TBD | TBD |
 | Total Time | | 50 Hrs | TBD | TBD |
 
-Code Snippet from App:
+SWOT:
+Strengths: Functional Components and programming logic are my key strengths.
+
+Weaknesses: CSS and aesthetic styling
+
+Opportunities: I will have a chance at honing in CSS skills such as grid to display the data. Will also try and play with dark/light mode.
+
+Threats: Stress and deadlines have always caused a hiccup for me. I will be using this week to manage time and productivity in a manner that will produce a stellar product.
