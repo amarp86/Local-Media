@@ -4,7 +4,7 @@ Link to Deployed Site:
 
 App Description: Social Media for Locals App that allows users to post reviews about different cities they have visited.
 
-API Response: ```js{ "records": [ { "id": "recnuEEpUThXAb8L4", "fields": { "location": "NYC", "username": "nyctraveler", "review": "lot of pigeons, smells like the juice that leaks from garbage trucks", "links": "https://s7d2.scene7.com/is/image/TWCNews/ezjmqwmx0amjjaieditedjpg?wid=1250&hei=703&$wide-bg$" }, "createdTime": "2021-02-15T22:35:02.000Z" }, { "id": "rectmn3ASoo4htogn", "fields": { "location": "Boston", "username": "redsox4lyfe\n", "review": "cobblestone streets everywhere!" }, "createdTime": "2021-02-15T22:35:02.000Z" }, { "id": "reckH9usYbx4kWHeb", "fields": { "location": "San Diego", "username": "feedmetacos\n\n", "review": "everyday is friday!" }, "createdTime": "2021-02-15T22:35:02.000Z" } ], "offset": "reckH9usYbx4kWHeb" }```
+API Response: ![Cities and Reviews Snippet](https://github.com/amarp86/Local-Media/blob/main/Cities%20Snippet.png)
 
 WireFrames: [Link To Wireframes](https://wireframe.cc/y2uOcR)
 
