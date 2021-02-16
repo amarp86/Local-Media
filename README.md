@@ -12,7 +12,7 @@ API Response:
 
 WireFrames: [Link To Wireframes](https://wireframe.cc/y2uOcR)
 
-Component Hierarchy: ![Component Hierarchy](https://github.com/amarp86/Local-Media/blob/main/Screen%20Shot%202021-02-15%20at%206.56.03%20PM.png)
+Component Hierarchy: ![Component Hierarchy](https://github.com/amarp86/Local-Media/blob/main/components.png)
 
 MVP:
 
