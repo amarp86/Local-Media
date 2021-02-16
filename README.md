@@ -54,6 +54,6 @@ Timeframes:
 | Testing React Components | H | 3 Hr | TBD | TBD |
 | Testing CSS breakpoints | M | 3 Hr | TBD | TBD |
 | Hosting Final Product | M | 3 Hr | TBD | TBD |
-| Total Time | | 47 Hrs | TBD | TBD |
+| Total Time | | 50 Hrs | TBD | TBD |
 
 Code Snippet from App:
