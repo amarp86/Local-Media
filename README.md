@@ -4,7 +4,11 @@ Link to Deployed Site:
 
 App Description: Social Media for Locals App that allows users to post reviews about different cities they have visited.
 
-API Response: ![Cities and Reviews Snippet](https://github.com/amarp86/Local-Media/blob/main/Cities%20Snippet.png)
+API Response: 
+
+![Cities and Reviews Snippet](https://github.com/amarp86/Local-Media/blob/main/Cities%20Snippet.png)
+
+![Locations Data](https://github.com/amarp86/Local-Media/blob/main/Locations%20Snippet.png)
 
 WireFrames: [Link To Wireframes](https://wireframe.cc/y2uOcR)
 
