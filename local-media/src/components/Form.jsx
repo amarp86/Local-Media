@@ -20,7 +20,10 @@ function Form(props) {
       if (foundReview) {
         setUserName(foundReview.fields.username);
         setLocation(foundReview.fields.location);
-        setReview(foundReview.fields.reviews);
+        setReview(foundReview.fields.review);
+        setLink(foundReview.fields.link);
+        setRank(foundReview.fields.rank);
+        setPeople(foundReview.fields.people);
       }
     }
   }, [props.reviews, params.id]);
@@ -89,7 +92,7 @@ function Form(props) {
         type="number"
         min="1"
         max="5"
-        onChange={(e) => setRank(e.target.value)}
+        onChange={(e) => setRank(e.target.valueAsNumber)}
       />
 
       <button type="submit">Let's Explore!</button>

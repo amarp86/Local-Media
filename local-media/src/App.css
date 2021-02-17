@@ -4,7 +4,6 @@
 .home-area {
   height: 100vh;
 }
-
 .forms {
   border: 10px solid green;
   padding: 10px 10px;
@@ -14,17 +13,18 @@
   flex-direction: column;
   flex-wrap: wrap;
 }
-
 .nav {
   position: relative;
-  background-color: cadetblue;
+  background-color: #94a8a9;
   display: flex;
   flex-direction: row;
 }
 .header-buttons {
+  display: flex;
+  flex-direction: column;
   position: absolute;
-  bottom: 0;
-  right: 0;
+  bottom: 20px;
+  right: 10px;
 }
 button {
   max-width: max-content;
@@ -32,8 +32,20 @@ button {
   padding: 10px auto;
   border-radius: 25px;
 }
-
+button:hover {
+  background-color: darkorchid;
+  color: white;
+}
+.reviews {
+  min-width: min-content;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.review-text {
+}
 .review-container {
+  border-radius: 10px;
   border: 5px 5px;
   margin: 15px auto;
   max-width: 25%;
@@ -41,20 +53,23 @@ button {
   display: flex;
   flex-direction: column;
 }
-
 .individual-location {
-  margin: 10px 10px;
-  max-width: auto;
+  margin: 10px auto;
+  max-width: min-content;
   border: 5px solid red;
 }
+.location-image {
+  min-width: 500px;
+  max-width: 500px;
+}
 .all-locations {
-  margin: 20px auto;
+  margin: 10px auto;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
 }
-
 .home-area {
+  position: relative;
   margin: 0 auto;
   max-width: 95%;
   color: white;
