@@ -1,0 +1,23 @@
+.App {
+  text-align: center;
+}
+.home-area {
+  background-color: blue;
+}
+
+.forms {
+  margin: 0 auto;
+  max-width: 20%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.nav {
+  background-color: cadetblue;
+  display: flex;
+  flex-direction: row;
+}
+button {
+  margin: auto 0;
+}
