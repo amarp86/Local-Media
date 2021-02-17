@@ -8,6 +8,7 @@ import Reviews from "./components/Reviews";
 import { Route, Link } from "react-router-dom";
 import Form from "./components/Form";
 import Locations from "./components/Locations";
+import background from "./images/longroadoriginal.jpg";
 
 function App() {
   const [reviews, setReviews] = useState([]);
@@ -27,7 +28,12 @@ function App() {
     <div className="App">
       <Header setToggleFetch={setToggleFetch} />
       <Route exact path="/">
-        <div className="home-area">Home Area</div>
+        <div
+          className="home-area"
+          style={{ backgroundImage: `url(${background})` }}
+        >
+          Home Area
+        </div>
       </Route>
       <Route path="/new">
         <Form reviews={reviews} setToggleFetch={setToggleFetch} />
@@ -40,14 +46,23 @@ function App() {
           {reviews.map((review) => (
             <Reviews
               key={review.id}
-              reviews={reviews}
+              review={review}
               setToggleFetch={setToggleFetch}
             />
           ))}
         </div>
       </Route>
       <Route path="/locations">
-        <Locations />
+        <h1>Where We've Been:</h1>
+        <div className="all-locations">
+          {reviews.map((review) => (
+            <Locations
+              key={review.id}
+              review={review}
+              setToggleFetch={setToggleFetch}
+            />
+          ))}
+        </div>
       </Route>
 
       <Footer />

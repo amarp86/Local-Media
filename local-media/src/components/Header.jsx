@@ -1,11 +1,12 @@
 import { Link } from "react-router-dom";
 import "../App.css";
+import logo from "../images/logo.png";
 
 function Header(props) {
   return (
     <nav className="nav">
       <Link to="/">
-        <h1 className="title">Local-Media</h1>
+        <img src={logo} alt="logo-png" />
       </Link>
       <Link to="/reviews">
         <button>Reviews</button>
@@ -14,7 +15,7 @@ function Header(props) {
         <button>Locations</button>
       </Link>
       <Link to="/new">
-        <button>New Review</button>
+        <button>New Destination</button>
       </Link>
     </nav>
   );

@@ -39,7 +39,7 @@ function Form(props) {
 
     console.log(fields);
     props.setToggleFetch((currentValue) => !currentValue);
-    history.push("/");
+    history.push("/reviews");
   };
 
   return (
@@ -50,7 +50,7 @@ function Form(props) {
         type="text"
         onChange={(e) => setReview(e.target.value)}
       />
-      <label htmlFor="location">Location</label>
+      <label htmlFor="location">Location(city, state)</label>
       <input
         value={location}
         type="text"

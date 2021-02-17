@@ -1,7 +1,13 @@
 import "../App.css";
 
 function Locations(props) {
-  return <div>Locations</div>;
+  const { location } = props.review.fields;
+
+  return (
+    <div className="individual-location">
+      <h2>{location} +</h2>
+    </div>
+  );
 }
 
 export default Locations;
