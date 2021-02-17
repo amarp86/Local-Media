@@ -8,6 +8,9 @@ function Form(props) {
   const [review, setReview] = useState("");
   const [location, setLocation] = useState("");
   const [username, setUserName] = useState("");
+  const [rank, setRank] = useState(1);
+  const [people, setPeople] = useState("");
+  const [link, setLink] = useState("");
   const history = useHistory();
   const params = useParams();
 
@@ -28,6 +31,9 @@ function Form(props) {
       location,
       review,
       username,
+      rank,
+      people,
+      link,
     };
 
     if (params.id) {
@@ -44,6 +50,12 @@ function Form(props) {
 
   return (
     <form className="forms" onSubmit={handleSubmit}>
+      <label htmlFor="username">UserName</label>
+      <input
+        value={username}
+        type="text"
+        onChange={(e) => setUserName(e.target.value)}
+      />
       <label htmlFor="review">Review</label>
       <textarea
         value={review}
@@ -56,12 +68,30 @@ function Form(props) {
         type="text"
         onChange={(e) => setLocation(e.target.value)}
       />
-      <label htmlFor="username">UserName</label>
+      <label htmlFor="people">How are the people Here?</label>
       <input
-        value={username}
+        value={people}
         type="text"
-        onChange={(e) => setUserName(e.target.value)}
+        onChange={(e) => setPeople(e.target.value)}
       />
+
+      {/* source for upload a file https://www.pluralsight.com/guides/how-to-use-a-simple-form-submit-with-files-in-react */}
+      <label htmlFor="link">Link to a Picture of Location</label>
+      <input
+        value={link}
+        type="text"
+        onChange={(e) => setLink(e.target.value)}
+      />
+
+      <label htmlFor="rank">Rank this place from 1 - 5</label>
+      <input
+        value={rank}
+        type="number"
+        min="1"
+        max="5"
+        onChange={(e) => setRank(e.target.value)}
+      />
+
       <button type="submit">Let's Explore!</button>
     </form>
   );

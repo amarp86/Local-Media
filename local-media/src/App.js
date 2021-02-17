@@ -8,7 +8,7 @@ import Reviews from "./components/Reviews";
 import { Route, Link } from "react-router-dom";
 import Form from "./components/Form";
 import Locations from "./components/Locations";
-import background from "./images/longroadoriginal.jpg";
+import background from "./images/longroadcut3.jpg";
 
 function App() {
   const [reviews, setReviews] = useState([]);
@@ -32,7 +32,21 @@ function App() {
           className="home-area"
           style={{ backgroundImage: `url(${background})` }}
         >
-          Home Area
+          <h1>
+            Welcome to Local-Media - a place to share your thoughts on the
+            places, people, and things you've encountered while traveling!
+          </h1>
+          <div className="home-area-button">
+            <Link to="/reviews">
+              <button>Reviews</button>
+            </Link>
+            <Link to="/locations">
+              <button>Locations</button>
+            </Link>
+            <Link to="/new">
+              <button>New Destination</button>
+            </Link>
+          </div>
         </div>
       </Route>
       <Route path="/new">

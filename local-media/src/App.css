@@ -16,13 +16,21 @@
 }
 
 .nav {
+  position: relative;
   background-color: cadetblue;
   display: flex;
   flex-direction: row;
 }
+.header-buttons {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
 button {
   max-width: max-content;
   margin: 10px auto;
+  padding: 10px auto;
+  border-radius: 25px;
 }
 
 .review-container {
@@ -44,4 +52,16 @@ button {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+}
+
+.home-area {
+  margin: 0 auto;
+  max-width: 95%;
+  color: white;
+}
+.home-area-button {
+  display: flex;
+  flex-direction: row;
+  margin: 50px auto;
+  padding: 15px 15px;
 }

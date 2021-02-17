@@ -8,15 +8,17 @@ function Header(props) {
       <Link to="/">
         <img src={logo} alt="logo-png" />
       </Link>
-      <Link to="/reviews">
-        <button>Reviews</button>
-      </Link>
-      <Link to="/locations">
-        <button>Locations</button>
-      </Link>
-      <Link to="/new">
-        <button>New Destination</button>
-      </Link>
+      <div className="header-buttons">
+        <Link to="/reviews">
+          <button>Reviews</button>
+        </Link>
+        <Link to="/locations">
+          <button>Locations</button>
+        </Link>
+        <Link to="/new">
+          <button>New Destination</button>
+        </Link>
+      </div>
     </nav>
   );
 }
