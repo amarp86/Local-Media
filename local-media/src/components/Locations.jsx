@@ -7,7 +7,7 @@ function Locations(props) {
 
   return (
     <div className="individual-location">
-      <h2>❤️ {location} ❤️</h2>
+      <h2 className="location-h2">❤️ {location} ❤️</h2>
       {/* Added Ternaries below for if people DO NOT submit a link for an image */}
       <Link
         to={

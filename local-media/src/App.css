@@ -89,7 +89,9 @@ button:hover {
   padding: 25px 25px;
 }
 .home-h1 {
-  color: thistle;
+  color: black;
+  border: 3px dotted black;
+  background-color: wheat;
 }
 
 .footer {
@@ -120,5 +122,33 @@ button:hover {
   }
   .home-h1 {
     font-size: 10pt;
+  }
+  .home-h3 {
+    font-size: 7pt;
+  }
+  .review-container {
+    background-color: #ffa552;
+    border-radius: 10px;
+    border: 5px 5px;
+    margin: 10px auto;
+    max-width: 50%;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    padding: 0px 10px;
+  }
+  .reviews {
+    min-width: 50%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .location-image {
+    min-width: 200px;
+    max-width: 200px;
+  }
+  .location-h2 {
+    font-size: 12pt;
   }
 }

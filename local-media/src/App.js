@@ -33,10 +33,11 @@ function App() {
           className="home-area"
           style={{ backgroundImage: `url(${background})` }}
         >
-          <h1 className="home-h1">
-            Welcome to Local-Media - a place to share your thoughts on the
-            places, people, and things you've encountered while traveling!
-          </h1>
+          <h1 className="home-h1">Welcome to Local-Media</h1>
+          <h3 className="home-h3">
+            A place to share your thoughts on the places, people, and things
+            you've encountered while traveling!
+          </h3>
           <div className="home-area-button">
             <Link to="/reviews">
               <button>Reviews</button>
