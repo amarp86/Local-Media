@@ -53,28 +53,32 @@ function Form(props) {
 
   return (
     <form className="forms" onSubmit={handleSubmit}>
-      <label htmlFor="username">UserName</label>
+      <label htmlFor="username">Username:</label>
       <input
         value={username}
         type="text"
+        placeholder="User1234"
         onChange={(e) => setUserName(e.target.value)}
       />
-      <label htmlFor="review">Review</label>
+      <label htmlFor="review">What Do You Think About This Location?</label>
       <textarea
         value={review}
         type="text"
+        placeholder="THIS PLACE IS GREAT!"
         onChange={(e) => setReview(e.target.value)}
       />
       <label htmlFor="location">Location(city, state)</label>
       <input
         value={location}
         type="text"
+        placeholder="New York, NY"
         onChange={(e) => setLocation(e.target.value)}
       />
-      <label htmlFor="people">How are the people Here?</label>
+      <label htmlFor="people">Describe the Locals:</label>
       <input
         value={people}
         type="text"
+        placeholder="friendly, mean, creative, kind, etc"
         onChange={(e) => setPeople(e.target.value)}
       />
 
@@ -83,10 +87,11 @@ function Form(props) {
       <input
         value={link}
         type="text"
+        placeholder="https://upload.wikimedia.org/wikipedia/commons/2/2a/BeefCutPlate-ShortRib.png"
         onChange={(e) => setLink(e.target.value)}
       />
 
-      <label htmlFor="rank">Rank this place from 1 - 5</label>
+      <label htmlFor="rank">Rank Location (1 - 5)</label>
       <input
         value={rank}
         type="number"

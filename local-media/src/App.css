@@ -82,9 +82,16 @@ button:hover {
   max-width: 65%;
   color: white;
 }
-.home-area-buttons {
+.home-area-button-container {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+  margin: 10px auto;
+  padding: 25px 25px;
+}
+.home-area-individual-buttons {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
   margin: 10px auto;
   padding: 25px 25px;
 }
@@ -119,11 +126,18 @@ button:hover {
     bottom: 0px;
     right: 10px;
   }
-  .home-area-buttons {
+  .home-area-button-container {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     margin: 0 auto;
+    padding: 25px 25px;
+  }
+  .home-area-individual-buttons {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 10px auto;
     padding: 25px 25px;
   }
   .home-h1 {

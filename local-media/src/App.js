@@ -38,18 +38,24 @@ function App() {
             A place to share your thoughts on the places, people, and things
             you've encountered while traveling!
           </h3>
-          <div className="home-area-button">
+          <div className="home-area-button-container">
             <Link to="/reviews">
-              <button>Reviews</button>
+              <button className="home-area-individual-buttons">Reviews</button>
             </Link>
             <Link to="/locations">
-              <button>Locations</button>
+              <button className="home-area-individual-buttons">
+                Locations
+              </button>
             </Link>
             <Link to="/new">
-              <button>New Destination</button>
+              <button className="home-area-individual-buttons">
+                New Destination
+              </button>
             </Link>
             <Link to="/search">
-              <button>Search for a Review</button>
+              <button className="home-area-individual-buttons">
+                Search for a Review
+              </button>
             </Link>
           </div>
         </div>
