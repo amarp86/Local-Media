@@ -9,6 +9,7 @@ import { Route, Link } from "react-router-dom";
 import Form from "./components/Form";
 import Locations from "./components/Locations";
 import background from "./images/longroadcut3.jpg";
+import Search from "./components/Search";
 
 function App() {
   const [reviews, setReviews] = useState([]);
@@ -46,6 +47,9 @@ function App() {
             <Link to="/new">
               <button>New Destination</button>
             </Link>
+            <Link to="/search">
+              <button>Search for a Review</button>
+            </Link>
           </div>
         </div>
       </Route>
@@ -77,6 +81,9 @@ function App() {
             />
           ))}
         </div>
+      </Route>
+      <Route to="/search">
+        <Search reviews={reviews} />
       </Route>
 
       <Footer />

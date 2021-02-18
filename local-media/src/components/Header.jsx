@@ -18,6 +18,9 @@ function Header(props) {
         <Link to="/new">
           <button>New Destination</button>
         </Link>
+        <Link to="/search">
+          <button>Search for a Review</button>
+        </Link>
       </div>
     </nav>
   );
