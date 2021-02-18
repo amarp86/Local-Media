@@ -19,14 +19,15 @@ const Search = (props) => {
         onChange={(e) => setUsername(e.target.value)}
         className="search-input-field"
       />
-      <div className="search-results">
+      <h2>Search Results Below</h2>
+      <div className="search-results-main">
         {username &&
           filteredReviews.map((review) => (
-            <div className="search-results-container">
-              <p key={review.id}>{review.fields.username}</p>
-              <p>{review.fields.review}</p>
-              <p>{review.fields.rank}</p>
-              <p>{review.fields.people}</p>
+            <div key={review.id} className="search-results-container">
+              <p key={review.username}>Username: {review.fields.username}</p>
+              <p key={review.review}>Review: {review.fields.review}</p>
+              <p key={review.rank}>Ranking: {review.fields.rank}</p>
+              <p key={review.people}>People: {review.fields.people}</p>
             </div>
           ))}
       </div>
