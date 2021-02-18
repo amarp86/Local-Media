@@ -100,9 +100,19 @@ button:hover {
   padding: 25px 25px;
 }
 .home-h1 {
+  font-family: "Dancing Script", cursive;
   color: black;
   border: 3px dotted black;
   background-color: wheat;
+}
+.home-h3 {
+  max-width: 20%;
+  position: absolute;
+  right: 10px;
+  color: black;
+  border: 1px solid white;
+  background-color: wheat;
+  font-family: "Satisfy", cursive;
 }
 
 .footer {
@@ -113,7 +123,7 @@ button:hover {
 
 .footer-img {
   padding: 10px 10px;
-  max-height: 50px;
+  max-height: 90px;
 }
 .search {
   padding: 10px;
