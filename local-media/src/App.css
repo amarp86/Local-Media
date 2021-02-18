@@ -26,7 +26,7 @@
 }
 button {
   max-width: max-content;
-  margin: 10px auto;
+  margin: auto 1px;
   padding: 10px auto;
   border-radius: 25px;
 }
@@ -76,15 +76,19 @@ button:hover {
 .home-area {
   background-size: cover;
   background-repeat: no-repeat;
-  height: 100vh;
+  height: 60vh;
   position: relative;
-  margin: 0 auto;
+  margin: 10px auto;
   max-width: 65%;
   color: white;
 }
 .home-area-button-container {
+  position: absolute;
+  bottom: 0;
+  left: 0;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  flex-wrap: wrap;
   margin: 10px auto;
   padding: 25px 25px;
 }
@@ -148,6 +152,9 @@ button:hover {
     bottom: 0px;
     right: 10px;
     padding: 0px 0px;
+  }
+  .home-area {
+    height: 40vh;
   }
   .home-area-button-container {
     display: flex;
