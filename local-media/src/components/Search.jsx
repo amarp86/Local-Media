@@ -14,11 +14,12 @@ const Search = (props) => {
   return (
     <div className="search">
       <h1 className="search-title">Search Post History by Username:</h1>
-      <label htmlFor="searchbox">Search Here</label>
+      <label htmlFor="searchbox">Search by User: </label>
       <input
         type="text"
         value={username}
         onChange={(e) => setUsername(e.target.value)}
+        className="search-input-field"
       />
       <div className="search-results">
         {username &&
@@ -27,7 +28,7 @@ const Search = (props) => {
               <p key={review.id}>{review.fields.username}</p>
               <p>{review.fields.review}</p>
               <p>{review.fields.rank}</p>
-              <p> {review.fields.people}</p>
+              <p>{review.fields.people}</p>
             </div>
           ))}
       </div>

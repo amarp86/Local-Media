@@ -1,8 +1,6 @@
 .App {
   text-align: center;
-}
-.home-area {
-  height: 100vh;
+  background-color: snow;
 }
 .forms {
   border: 10px solid green;
@@ -39,15 +37,17 @@ button:hover {
 .reviews {
   min-width: min-content;
   display: flex;
-  flex-direction: row;
+  flex-direction: row-reverse;
   flex-wrap: wrap;
 }
 .review-text {
   margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
+  padding: 10px 10px;
 }
 .review-container {
+  background-color: springgreen;
   border-radius: 10px;
   border: 5px 5px;
   margin: 15px auto;
@@ -55,6 +55,7 @@ button:hover {
   border: 2px solid black;
   display: flex;
   flex-direction: column;
+  padding: 10px 10px;
 }
 .individual-location {
   margin: 10px auto;
@@ -73,15 +74,16 @@ button:hover {
   flex-wrap: wrap;
 }
 .home-area {
+  height: 100vh;
   position: relative;
   margin: 0 auto;
   max-width: 95%;
   color: white;
 }
-.home-area-button {
+.home-area-buttons {
   display: flex;
   flex-direction: row;
-  margin: 50px auto;
+  margin: 0 auto;
   padding: 15px 15px;
 }
 
