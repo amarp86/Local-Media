@@ -97,10 +97,13 @@ function Form(props) {
         type="number"
         min="1"
         max="5"
+        className="rank-input"
         onChange={(e) => setRank(e.target.valueAsNumber)}
       />
 
-      <button type="submit">Let's Explore!</button>
+      <button className="submit-button" type="submit">
+        Let's Explore!
+      </button>
     </form>
   );
 }
