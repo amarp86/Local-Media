@@ -66,6 +66,7 @@ button:hover {
 .location-image {
   min-width: 500px;
   max-width: 500px;
+  max-height: 500px;
 }
 .all-locations {
   margin: 10px auto;
