@@ -43,6 +43,9 @@ button:hover {
   flex-wrap: wrap;
 }
 .review-text {
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
 }
 .review-container {
   border-radius: 10px;
