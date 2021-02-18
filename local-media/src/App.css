@@ -116,8 +116,11 @@ button:hover {
   .App {
     min-width: 300px;
   }
+  .nav {
+    min-height: 175px;
+  }
   .header-img {
-    max-height: 100px;
+    max-height: 150px;
   }
   .header-buttons {
     display: flex;
@@ -125,6 +128,7 @@ button:hover {
     position: absolute;
     bottom: 0px;
     right: 10px;
+    padding: 0px 0px;
   }
   .home-area-button-container {
     display: flex;
