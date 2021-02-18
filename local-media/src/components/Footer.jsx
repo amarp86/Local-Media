@@ -14,7 +14,7 @@ function Footer(props) {
       >
         <img src={Linkedin} alt="linkedin" className="footer-img" />
       </Link>
-      <p>Copyright 2021 Amar Patel</p>
+      <p className="footer-text">Copyright 2021 Amar Patel</p>
     </div>
   );
 }

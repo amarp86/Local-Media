@@ -9,8 +9,6 @@ const Search = (props) => {
     review.fields.username.toLowerCase().includes(username.toLowerCase())
   );
 
-  console.log(filteredReviews);
-
   return (
     <div className="search">
       <h1 className="search-title">Search Post History by Username:</h1>

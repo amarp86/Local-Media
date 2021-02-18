@@ -8,7 +8,7 @@ import Reviews from "./components/Reviews";
 import { Route, Link } from "react-router-dom";
 import Form from "./components/Form";
 import Locations from "./components/Locations";
-import background from "./images/longroadcut3.jpg";
+import background from "./images/longroad4.jpg";
 import Search from "./components/Search";
 
 function App() {
@@ -33,7 +33,7 @@ function App() {
           className="home-area"
           style={{ backgroundImage: `url(${background})` }}
         >
-          <h1>
+          <h1 className="home-h1">
             Welcome to Local-Media - a place to share your thoughts on the
             places, people, and things you've encountered while traveling!
           </h1>
