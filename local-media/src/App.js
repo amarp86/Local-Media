@@ -82,8 +82,10 @@ function App() {
           ))}
         </div>
       </Route>
-      <Route to="/search">
-        <Search reviews={reviews} />
+      <Route path="/search">
+        <div className="search-div">
+          <Search reviews={reviews} />
+        </div>
       </Route>
 
       <Footer />
