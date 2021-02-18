@@ -6,7 +6,7 @@
   border: 10px solid green;
   padding: 10px 10px;
   margin: 10px auto;
-  max-width: 20%;
+  max-width: 40%;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -19,7 +19,7 @@
 }
 .header-buttons {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   position: absolute;
   bottom: 20px;
   right: 10px;
@@ -106,9 +106,15 @@ button:hover {
 }
 
 @media screen and (max-width: 600px) {
+  .App {
+    min-width: 300px;
+  }
+  .header-img {
+    max-height: 100px;
+  }
   .header-buttons {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     position: absolute;
     bottom: 0px;
     right: 10px;
@@ -150,5 +156,15 @@ button:hover {
   }
   .location-h2 {
     font-size: 12pt;
+  }
+
+  .forms {
+    border: 10px solid green;
+    padding: 10px 10px;
+    margin: 10px auto;
+    max-width: 60%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
   }
 }

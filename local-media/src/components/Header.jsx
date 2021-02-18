@@ -6,7 +6,7 @@ function Header(props) {
   return (
     <nav className="nav">
       <Link to="/">
-        <img src={logo} alt="logo-png" />
+        <img src={logo} alt="logo-png" className="header-img" />
       </Link>
       <div className="header-buttons">
         <Link to="/reviews">
