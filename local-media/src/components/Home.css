@@ -34,12 +34,13 @@
   max-width: 40%;
   min-height: fit-content;
   position: absolute;
-  right: 10%;
+  right: 5%;
   color: black;
   border: 1px solid white;
   background-color: wheat;
   font-family: "Satisfy", cursive;
   font-size: 16pt;
+  padding: 0px 15px;
 }
 
 @media screen and (max-width: 600px) {

@@ -5,7 +5,7 @@ import { useEffect, useState } from "react";
 import axios from "axios";
 import { baseURL, config } from "./services/index.js";
 import Reviews from "./components/Reviews";
-import { Route, Link } from "react-router-dom";
+import { Route } from "react-router-dom";
 import Form from "./components/Form";
 import Locations from "./components/Locations";
 import Search from "./components/Search";
