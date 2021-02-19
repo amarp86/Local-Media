@@ -259,6 +259,9 @@ input {
     flex-direction: column;
     flex-wrap: wrap;
   }
+  .review-button {
+    margin: 5px 5px;
+  }
   .location-image {
     min-width: 200px;
     max-width: 200px;

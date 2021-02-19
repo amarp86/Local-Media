@@ -25,9 +25,11 @@ function Reviews(props) {
         {`${username} says the people are:`} {people}
       </h4>
       <div className="delete-button">
-        <button onClick={deleteReview}>Delete Review</button>
+        <button className="review-button" onClick={deleteReview}>
+          Delete Review
+        </button>
         <Link to={`/edit/${props.review.id}`}>
-          <button>Edit Review</button>
+          <button className="review-button">Edit Review</button>
         </Link>
       </div>
     </div>
