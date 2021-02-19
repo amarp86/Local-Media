@@ -46,7 +46,7 @@
   flex-direction: column;
   flex-wrap: wrap;
   animation-name: form-color;
-  animation-duration: 2s;
+  animation-duration: 1s;
   animation-iteration-count: infinite;
 }
 .nav {
@@ -85,6 +85,8 @@ button:hover {
   padding: 10px 10px;
 }
 .review-container {
+  font-family: "Truculenta", sans-serif;
+  font-size: 15pt;
   background-color: #ffa552;
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 3px;
