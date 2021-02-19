@@ -46,7 +46,7 @@
   flex-direction: column;
   flex-wrap: wrap;
   animation-name: form-color;
-  animation-duration: 1s;
+  animation-duration: 2s;
   animation-iteration-count: infinite;
 }
 .nav {
@@ -86,11 +86,12 @@ button:hover {
 }
 .review-container {
   background-color: #ffa552;
-  border-radius: 10px;
-  border: 5px 5px;
   margin: 15px auto;
   max-width: 60%;
-  border: 2px solid black;
+  border-top: 4px solid darkgray;
+  border-left: 4px solid darkgray;
+  border-bottom: 8px solid gray;
+  border-right: 8px solid gray;
   display: flex;
   flex-direction: column;
   padding: 10px 10px;
