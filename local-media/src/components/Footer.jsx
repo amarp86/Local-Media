@@ -1,6 +1,7 @@
 import Octocat from "../images/Octocat.png";
 import Linkedin from "../images/linkedinlogo.png";
 import { Link } from "react-router-dom";
+import "./Footer.css";
 
 function Footer(props) {
   return (

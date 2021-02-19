@@ -1,0 +1,10 @@
+.footer {
+  color: white;
+  min-height: 15vh;
+  background-color: #0b3954;
+}
+
+.footer-img {
+  padding: 10px 10px;
+  max-height: 90px;
+}

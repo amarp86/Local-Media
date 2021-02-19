@@ -30,4 +30,19 @@
     display: grid;
     grid-template-columns: repeat(1, 100%);
   }
+  .review-container {
+    background-color: #ffa552;
+    border-radius: 10px;
+    border: 5px 5px;
+    margin: 10px auto;
+    max-width: 50%;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    padding: 0px 10px;
+  }
+
+  .review-button {
+    margin: 5px 5px;
+  }
 }

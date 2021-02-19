@@ -45,3 +45,23 @@
   animation-duration: 1s;
   animation-iteration-count: infinite;
 }
+.submit-button {
+  padding: 5px;
+  margin: 5px auto;
+}
+input {
+  margin: 5px 5px;
+}
+.rank-input {
+  margin: 5px auto;
+}
+@media screen and (max-width: 600px) {
+  .forms {
+    padding: 10px 10px;
+    margin: 10px auto;
+    max-width: 60%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+}

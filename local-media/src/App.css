@@ -2,7 +2,6 @@
   text-align: center;
   background-color: #78cdd7;
 }
-
 button {
   max-width: max-content;
   margin: auto 1px;
@@ -14,111 +13,8 @@ button:hover {
   color: white;
 }
 
-.footer {
-  color: white;
-  min-height: 15vh;
-  background-color: #0b3954;
-}
-
-.footer-img {
-  padding: 10px 10px;
-  max-height: 90px;
-}
-
-.submit-button {
-  padding: 5px;
-  margin: 5px auto;
-}
-input {
-  margin: 5px 5px;
-}
-.rank-input {
-  margin: 5px auto;
-}
-
 @media screen and (max-width: 600px) {
   .App {
     min-width: 300px;
-  }
-  .nav {
-    min-height: 175px;
-  }
-  .header-img {
-    max-height: 150px;
-  }
-  .header-buttons {
-    display: flex;
-    flex-direction: column;
-    position: absolute;
-    bottom: 0px;
-    right: 10px;
-    padding: 0px 0px;
-  }
-  .home-area {
-    height: 40vh;
-  }
-  .home-area-button-container {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    margin: 0 auto;
-    padding: 25px 25px;
-  }
-  .home-area-individual-buttons {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    margin: 10px auto;
-    padding: 4px 4px;
-  }
-
-  .home-h1 {
-    font-size: 10pt;
-  }
-  .home-h3 {
-    font-size: 7pt;
-  }
-  .review-container {
-    background-color: #ffa552;
-    border-radius: 10px;
-    border: 5px 5px;
-    margin: 10px auto;
-    max-width: 50%;
-    border: 2px solid black;
-    display: flex;
-    flex-direction: column;
-    padding: 0px 10px;
-  }
-  .reviews {
-    min-width: 50%;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-  }
-  .review-button {
-    margin: 5px 5px;
-  }
-  .location-image {
-    min-width: 200px;
-    max-width: 200px;
-  }
-  .location-h2 {
-    font-size: 12pt;
-  }
-
-  .forms {
-    border: 10px solid green;
-    padding: 10px 10px;
-    margin: 10px auto;
-    max-width: 60%;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-  }
-  .search-results-main {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
   }
 }

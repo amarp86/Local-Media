@@ -41,3 +41,30 @@
   font-family: "Satisfy", cursive;
   font-size: 16pt;
 }
+
+@media screen and (max-width: 600px) {
+  .home-area {
+    height: 40vh;
+  }
+  .home-area-button-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    padding: 25px 25px;
+  }
+  .home-area-individual-buttons {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 10px auto;
+    padding: 4px 4px;
+  }
+
+  .home-h1 {
+    font-size: 10pt;
+  }
+  .home-h3 {
+    font-size: 7pt;
+  }
+}
