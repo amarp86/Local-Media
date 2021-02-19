@@ -1,0 +1,43 @@
+.home-area {
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 60vh;
+  position: relative;
+  margin: 10px auto;
+  max-width: 65%;
+  color: white;
+}
+.home-area-button-container {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 10px auto;
+  padding: 25px 25px;
+}
+.home-area-individual-buttons {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin: 10px auto;
+  padding: 25px 25px;
+}
+.home-h1 {
+  font-family: "Dancing Script", cursive;
+  color: black;
+  border: 3px dotted black;
+  background-color: wheat;
+}
+.home-h3 {
+  max-width: 40%;
+  min-height: fit-content;
+  position: absolute;
+  right: 10%;
+  color: black;
+  border: 1px solid white;
+  background-color: wheat;
+  font-family: "Satisfy", cursive;
+  font-size: 16pt;
+}

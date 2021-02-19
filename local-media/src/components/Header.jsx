@@ -10,16 +10,18 @@ function Header(props) {
       </Link>
       <div className="header-buttons">
         <Link to="/reviews">
-          <button>Reviews</button>
+          <button className="header-individual-button">Reviews</button>
         </Link>
         <Link to="/locations">
-          <button>Locations</button>
+          <button className="header-individual-button">Locations</button>
         </Link>
         <Link to="/new">
-          <button>New Destination</button>
+          <button className="header-individual-button">New Destination</button>
         </Link>
         <Link to="/search">
-          <button>Search for a Review</button>
+          <button className="header-individual-button">
+            Search for a Review
+          </button>
         </Link>
       </div>
     </nav>

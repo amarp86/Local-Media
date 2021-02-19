@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import background from "../images/longroad4.jpg";
+import "./Home.css";
 
 function Home() {
   return (
@@ -13,7 +14,7 @@ function Home() {
         encountered while traveling!
       </h3>
       <div className="home-area-button-container">
-        <Link to="/reviews">
+        {/* <Link to="/reviews">
           <button className="home-area-individual-buttons">Reviews</button>
         </Link>
         <Link to="/locations">
@@ -28,7 +29,7 @@ function Home() {
           <button className="home-area-individual-buttons">
             Search for a Review
           </button>
-        </Link>
+        </Link> */}
       </div>
     </div>
   );
