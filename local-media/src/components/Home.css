@@ -66,6 +66,7 @@
     font-size: 50pt;
   }
   .home-h3 {
+    min-width: min-content;
     font-size: 27pt;
   }
 }
