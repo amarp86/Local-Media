@@ -21,7 +21,9 @@ function Reviews(props) {
       <h4>
         {`${username} ranks this spot:`} (1-5): {rank}
       </h4>
-      <h4>How are the People?: {people}</h4>
+      <h4>
+        {`${username} says the people are:`} {people}
+      </h4>
       <div className="delete-button">
         <button onClick={deleteReview}>Delete Review</button>
         <Link to={`/edit/${props.review.id}`}>

@@ -86,12 +86,14 @@ button:hover {
 }
 .review-container {
   background-color: #ffa552;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 3px;
   margin: 15px auto;
   max-width: 60%;
   border-top: 4px solid darkgray;
   border-left: 4px solid darkgray;
-  border-bottom: 8px solid gray;
-  border-right: 8px solid gray;
+  border-bottom: 10px solid gray;
+  border-right: 10px solid gray;
   display: flex;
   flex-direction: column;
   padding: 10px 10px;
@@ -275,5 +277,9 @@ input {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+  }
+  button {
+    padding: 4px 4px;
+    margin: 0px 4px 15px auto;
   }
 }
