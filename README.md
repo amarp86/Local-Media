@@ -2,7 +2,7 @@
 
 Link to Deployed Site:
 
-![Deployed Site](https://happy-joliot-5770a1.netlify.app/)
+[Deployed Site](https://happy-joliot-5770a1.netlify.app/)
 
 App Description: Social Media for Locals App that allows users to post reviews about different cities they have visited.
 
