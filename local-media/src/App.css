@@ -34,12 +34,12 @@ button:hover {
   background-color: darkorchid;
   color: white;
 }
+
 .reviews {
-  min-width: min-content;
-  display: flex;
-  flex-direction: row-reverse;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(3, 33%);
 }
+
 .review-text {
   margin: 0 auto;
   display: flex;
@@ -51,7 +51,7 @@ button:hover {
   border-radius: 10px;
   border: 5px 5px;
   margin: 15px auto;
-  max-width: 25%;
+  max-width: 60%;
   border: 2px solid black;
   display: flex;
   flex-direction: column;
