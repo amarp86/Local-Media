@@ -14,12 +14,14 @@ function Reviews(props) {
 
   return (
     <div className="review-container">
-      <h3>Username:</h3> {username}
-      <h4>Location: {location}</h4>
+      <h3>Who Said What:</h3> {username}
+      <h4>Where: {location}</h4>
       <h5>{`${username}'s Review:`}</h5>{" "}
       <div className="review-text">{review}</div>
-      <h6>Ranking(1-5): {rank}</h6>
-      <h6>How are the People?: {people}</h6>
+      <h4>
+        {`${username} ranks this spot:`} (1-5): {rank}
+      </h4>
+      <h4>How are the People?: {people}</h4>
       <div className="delete-button">
         <button onClick={deleteReview}>Delete Review</button>
         <Link to={`/edit/${props.review.id}`}>
