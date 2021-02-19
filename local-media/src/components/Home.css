@@ -32,9 +32,9 @@
 }
 .home-h3 {
   max-width: 40%;
-  min-height: fit-content;
-  position: absolute;
-  right: 5%;
+  min-height: min-content;
+  position: relative;
+  right: -40%;
   color: black;
   border: 1px solid white;
   background-color: wheat;
@@ -63,10 +63,10 @@
   }
 
   .home-h1 {
-    font-size: 50pt;
+    font-size: 40pt;
   }
   .home-h3 {
     min-width: min-content;
-    font-size: 27pt;
+    font-size: 17pt;
   }
 }
