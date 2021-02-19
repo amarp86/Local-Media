@@ -53,6 +53,7 @@ function Form(props) {
 
   return (
     <form className="forms" onSubmit={handleSubmit}>
+      <h1>Catch Me If You Can</h1>
       <label htmlFor="username">Username:</label>
       <input
         value={username}
@@ -102,7 +103,7 @@ function Form(props) {
       />
 
       <button className="submit-button" type="submit">
-        Let's Explore!
+        Send It!
       </button>
     </form>
   );
