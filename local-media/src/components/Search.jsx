@@ -1,4 +1,5 @@
 import { useState } from "react";
+import "./Search.css";
 
 // this component was taught during workshop on wednesday of P2 week
 

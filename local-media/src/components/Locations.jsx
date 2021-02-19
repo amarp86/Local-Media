@@ -1,4 +1,4 @@
-import "../App.css";
+import "./Locations.css";
 import { Link } from "react-router-dom";
 
 function Locations(props) {

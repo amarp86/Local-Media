@@ -1,7 +1,7 @@
 import axios from "axios";
 import { baseURL, config } from "../services/index.js";
 import { Link } from "react-router-dom";
-import "../App.css";
+import "./Reviews.css";
 
 function Reviews(props) {
   const deleteReview = async () => {

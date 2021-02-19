@@ -1,0 +1,17 @@
+.individual-location {
+  margin: 10px auto;
+  max-width: min-content;
+  border: 5px solid red;
+  border-radius: 10px;
+}
+.location-image {
+  min-width: 500px;
+  max-width: 500px;
+  max-height: 500px;
+}
+.all-locations {
+  margin: 10px auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}

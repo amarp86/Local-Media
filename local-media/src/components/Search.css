@@ -1,0 +1,19 @@
+.search {
+  padding: 10px;
+}
+.search-results-container {
+  border: 2px solid black;
+  border-radius: 10px;
+  background-color: #ffa552;
+  min-width: 20%;
+  max-width: max-content;
+  margin: 10px auto;
+  padding: 10px 10px;
+}
+.search-results-main {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  padding: 10px 10px;
+}

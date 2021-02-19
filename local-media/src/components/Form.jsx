@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import axios from "axios";
 import { baseURL, config } from "../services/index.js";
 import { useHistory, useParams } from "react-router-dom";
-import "../App.css";
+import "./Form.css";
 
 function Form(props) {
   const [review, setReview] = useState("");

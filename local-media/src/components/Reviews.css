@@ -1,0 +1,27 @@
+.reviews {
+  display: grid;
+  grid-template-columns: repeat(3, 33%);
+}
+
+.review-text {
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px 10px;
+}
+.review-container {
+  font-family: "Truculenta", sans-serif;
+  font-size: 15pt;
+  background-color: #ffa552;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 3px;
+  margin: 15px auto;
+  max-width: 60%;
+  border-top: 4px solid darkgray;
+  border-left: 4px solid darkgray;
+  border-bottom: 10px solid gray;
+  border-right: 10px solid gray;
+  display: flex;
+  flex-direction: column;
+  padding: 10px 10px;
+}

@@ -2,66 +2,7 @@
   text-align: center;
   background-color: #78cdd7;
 }
-@keyframes form-color {
-  0% {
-    border-top: 10px solid green;
-    border-left: 30px solid yellow;
-    border-bottom: 30px solid blue;
-    border-right: 30px solid red;
-  }
-  25% {
-    border-top: 30px solid yellow;
-    border-left: 30px solid blue;
-    border-bottom: 30px solid red;
-    border-right: 10px solid green;
-  }
-  50% {
-    border-top: 30px solid blue;
-    border-left: 30px solid red;
-    border-bottom: 10px solid green;
-    border-right: 30px solid yellow;
-  }
-  75% {
-    border-top: 30px solid red;
-    border-left: 10px solid green;
-    border-bottom: 30px solid yellow;
-    border-right: 30px solid blue;
-  }
-  100% {
-    border-top: 10px solid green;
-    border-left: 30px solid yellow;
-    border-bottom: 30px solid blue;
-    border-right: 30px solid red;
-  }
-}
-.forms {
-  border-top: 10px solid green;
-  border-left: 30px solid yellow;
-  border-bottom: 30px solid blue;
-  border-right: 30px solid red;
-  padding: 10px 10px;
-  margin: 10px auto;
-  max-width: 40%;
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  animation-name: form-color;
-  animation-duration: 1s;
-  animation-iteration-count: infinite;
-}
-.nav {
-  position: relative;
-  background-color: #b8b7af;
-  display: flex;
-  flex-direction: row;
-}
-.header-buttons {
-  display: flex;
-  flex-direction: row;
-  position: absolute;
-  bottom: 20px;
-  right: 10px;
-}
+
 button {
   max-width: max-content;
   margin: auto 1px;
@@ -73,50 +14,6 @@ button:hover {
   color: white;
 }
 
-.reviews {
-  display: grid;
-  grid-template-columns: repeat(3, 33%);
-}
-
-.review-text {
-  margin: 0 auto;
-  display: flex;
-  flex-wrap: wrap;
-  padding: 10px 10px;
-}
-.review-container {
-  font-family: "Truculenta", sans-serif;
-  font-size: 15pt;
-  background-color: #ffa552;
-  border-bottom-left-radius: 5px;
-  border-bottom-right-radius: 3px;
-  margin: 15px auto;
-  max-width: 60%;
-  border-top: 4px solid darkgray;
-  border-left: 4px solid darkgray;
-  border-bottom: 10px solid gray;
-  border-right: 10px solid gray;
-  display: flex;
-  flex-direction: column;
-  padding: 10px 10px;
-}
-.individual-location {
-  margin: 10px auto;
-  max-width: min-content;
-  border: 5px solid red;
-  border-radius: 10px;
-}
-.location-image {
-  min-width: 500px;
-  max-width: 500px;
-  max-height: 500px;
-}
-.all-locations {
-  margin: 10px auto;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-}
 .home-area {
   background-size: cover;
   background-repeat: no-repeat;
@@ -169,25 +66,7 @@ button:hover {
   padding: 10px 10px;
   max-height: 90px;
 }
-.search {
-  padding: 10px;
-}
-.search-results-container {
-  border: 2px solid black;
-  border-radius: 10px;
-  background-color: #ffa552;
-  min-width: 20%;
-  max-width: max-content;
-  margin: 10px auto;
-  padding: 10px 10px;
-}
-.search-results-main {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  margin: 0 auto;
-  padding: 10px 10px;
-}
+
 .submit-button {
   padding: 5px;
   margin: 5px auto;

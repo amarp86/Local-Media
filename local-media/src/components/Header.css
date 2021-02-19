@@ -1,0 +1,13 @@
+.nav {
+  position: relative;
+  background-color: #b8b7af;
+  display: flex;
+  flex-direction: row;
+}
+.header-buttons {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  bottom: 20px;
+  right: 10px;
+}
