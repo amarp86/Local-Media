@@ -232,8 +232,9 @@ input {
     flex-direction: column;
     flex-wrap: wrap;
     margin: 10px auto;
-    padding: 25px 25px;
+    padding: 4px 4px;
   }
+
   .home-h1 {
     font-size: 10pt;
   }
@@ -279,9 +280,5 @@ input {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-  }
-  button {
-    padding: 4px 4px;
-    margin: 0px 4px 15px auto;
   }
 }
