@@ -45,7 +45,7 @@
 
 @media screen and (max-width: 600px) {
   .home-area {
-    height: 40vh;
+    height: 80vh;
   }
   .home-area-button-container {
     display: flex;
