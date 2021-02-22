@@ -1,7 +1,6 @@
 import { Link } from "react-router-dom";
 import background from "../images/longroad4.jpg";
 import "./Home.css";
-import PopupMenu from "./PopupMenu";
 
 function Home() {
   return (
@@ -31,7 +30,6 @@ function Home() {
             Search for a Review
           </button>
         </Link> */}
-        <PopupMenu />
       </div>
     </div>
   );

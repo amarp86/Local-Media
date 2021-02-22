@@ -9,8 +9,8 @@ const PopupMenu = (props) => {
     setAnchor(event.currentTarget);
   };
 
-  const handleClose = () => {
-    setAnchor(null);
+  const handleClose = (e) => {
+    setAnchor(e.target.value);
   };
 
   return (
@@ -20,7 +20,7 @@ const PopupMenu = (props) => {
         aria-haspopup="true"
         onClick={handleClick}
       >
-        Open Menu
+        Explore!
       </Button>
       <Menu
         id="simple-menu"
@@ -29,9 +29,18 @@ const PopupMenu = (props) => {
         open={Boolean(anchor)}
         onClose={handleClose}
       >
-        <MenuItem onClick={handleClose}>Profile</MenuItem>
-        <MenuItem onClick={handleClose}>My account</MenuItem>
-        <MenuItem onClick={handleClose}>Logout</MenuItem>
+        <MenuItem onClick={handleClose}>
+          <Link to="/reviews">Reviews</Link>
+        </MenuItem>
+        <MenuItem onClick={handleClose}>
+          <Link to="/locations">Locations</Link>
+        </MenuItem>
+        <MenuItem onClick={handleClose}>
+          <Link to="/new">New Destination</Link>
+        </MenuItem>
+        <MenuItem onClick={handleClose}>
+          <Link to="/search">Search for a Review</Link>
+        </MenuItem>
       </Menu>
     </div>
   );
