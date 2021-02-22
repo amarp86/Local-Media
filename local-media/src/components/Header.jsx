@@ -12,7 +12,7 @@ function Header(props) {
       <Link to="/">
         <img src={logo} alt="logo-png" className="header-img" />
       </Link>
-      <div className="header-buttons">
+      {/* <div className="header-buttons">
         <Link to="/reviews">
           <button className="header-individual-button">Reviews</button>
         </Link>
@@ -27,7 +27,7 @@ function Header(props) {
             Search for a Review
           </button>
         </Link>
-      </div>
+      </div> */}
     </nav>
   );
 }

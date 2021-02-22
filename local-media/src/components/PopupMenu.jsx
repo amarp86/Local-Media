@@ -18,6 +18,8 @@ const PopupMenu = (props) => {
       <Button
         aria-controls="simple-menu"
         aria-haspopup="true"
+        color="primary"
+        size="large"
         onClick={handleClick}
       >
         MENU
