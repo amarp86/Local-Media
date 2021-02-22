@@ -10,7 +10,7 @@ const PopupMenu = (props) => {
   };
 
   const handleClose = (e) => {
-    setAnchor(e.target.value);
+    setAnchor(null);
   };
 
   return (
