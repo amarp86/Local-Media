@@ -33,34 +33,34 @@ Changelog:
 Schedule and Goals:
 | Date | Goal of the Day | Status |
 | --------- | --------------------------------------- | ------- |
-| 2/16/2021 | Prompt/Wireframe | Pending |
-| 2/17/2021 | Approval/Begin Coding | Pending |
-| 2/18/2021 | Core App Structure | Pending |
-| 2/19/2021 | Initial Deployment | Pending |
-| 2/22/2021 | Meet MVP Deliverables | Pending |
+| 2/16/2021 | Prompt/Wireframe | Complete |
+| 2/17/2021 | Approval/Begin Coding | Complete |
+| 2/18/2021 | Core App Structure | Complete |
+| 2/19/2021 | Initial Deployment | Complete |
+| 2/22/2021 | Meet MVP Deliverables | Complete |
 | 2/23/2021 | Presentations/Submission | Pending |
 
 Timeframes:
 | Component | Priority | Estimate Time | Time Invested | Actual Time |
 | ------------------------------- | :------: | :-----------: | :-----------: | :---------: |
-| Setting Up Basic Layout | H | 2 Hr | TBD | TBD |
-| Accessing API | H | 3 Hr | TBD | TBD |
-| JS/React API Initial Get Request | H | 3 Hr | TBD | TBD |
-| Parsing API Data | H | 3 Hr | TBD | TBD |
-| Creating React Elements | H | 3 Hr | TBD | TBD |
-| React Route/Links | H | 3 Hr | TBD | TBD |
-| React Post/Feed Component | H | 3 Hr | TBD | TBD |
-| React/JS post/put/delete calls | H | 3 Hr | TBD | TBD |
-| React Header/Footer | M | 3 Hr | TBD | TBD |
-| React Locations List | M | 3 Hr | TBD | TBD |
-| CSS Styling DESKTOP | H | 3 Hr | TBD | TBD |
-| CSS Styling MOBILE | H | 3 Hr | TBD | TBD |
-| POST MVP - Ranking Order | L | 3 Hr | TBD | TBD |
-| UI/UX breakpoints | M | 3 Hr | TBD | TBD|
-| Testing React Components | H | 3 Hr | TBD | TBD |
-| Testing CSS breakpoints | M | 3 Hr | TBD | TBD |
-| Hosting Final Product | M | 3 Hr | TBD | TBD |
-| Total Time | | 50 Hrs | TBD | TBD |
+| Setting Up Basic Layout | H | 2 Hr | 2 Hr | 2 Hr |
+| Accessing API | H | 3 Hr | 3 Hr | 3 Hr |
+| JS/React API Initial Get Request | H | 3 Hr | 3 Hr | 3 Hr |
+| Parsing API Data | H | 3 Hr | 3 Hr | 3 Hr |
+| Creating React Elements | H | 3 Hr | 3 Hr | 3 Hr |
+| React Route/Links | H | 3 Hr | 3 Hr | 3 Hr |
+| React Post/Feed Component | H | 3 Hr | 3 Hr | 3 Hr |
+| React/JS post/put/delete calls | H | 3 Hr | 3 Hr | 3 Hr |
+| React Header/Footer | M | 3 Hr | 3 Hr | 3 Hr |
+| React Locations List | M | 3 Hr | 3 Hr | 3 Hr |
+| CSS Styling DESKTOP | H | 3 Hr | 3 Hr | 3 Hr |
+| CSS Styling MOBILE | H | 3 Hr | 3 Hr | 3 Hr |
+| POST MVP - Ranking Order | L | 3 Hr | N/A | 0 Hr |
+| UI/UX breakpoints | M | 3 Hr | 4 Hr | 4 Hr|
+| Testing React Components | H | 3 Hr | 4 Hr | 4 Hr |
+| Testing CSS breakpoints | M | 3 Hr | 5 Hr | 5 Hr |
+| Hosting Final Product | M | 3 Hr | 1 Hr | 1 Hr |
+| Total Time | | 50 Hrs | 49 Hrs | 49 Hrs |
 
 SWOT:
 Strengths: Functional Components and programming logic are my key strengths.
