@@ -10,7 +10,7 @@ button {
 }
 button:hover {
   background-color: darkorchid;
-  color: white;
+  color: black;
 }
 
 @media screen and (max-width: 600px) {
