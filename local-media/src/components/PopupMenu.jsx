@@ -20,7 +20,7 @@ const PopupMenu = (props) => {
         aria-haspopup="true"
         onClick={handleClick}
       >
-        Explore!
+        MENU
       </Button>
       <Menu
         id="simple-menu"
