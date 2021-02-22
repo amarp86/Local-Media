@@ -13,22 +13,6 @@ function Header(props) {
         <img src={logo} alt="logo-png" className="header-img" />
       </Link>
       <h3 className="header-title">Where Do We Go Next?</h3>
-      {/* <div className="header-buttons">
-        <Link to="/reviews">
-          <button className="header-individual-button">Reviews</button>
-        </Link>
-        <Link to="/locations">
-          <button className="header-individual-button">Locations</button>
-        </Link>
-        <Link to="/new">
-          <button className="header-individual-button">New Destination</button>
-        </Link>
-        <Link to="/search">
-          <button className="header-individual-button">
-            Search for a Review
-          </button>
-        </Link>
-      </div> */}
     </nav>
   );
 }
