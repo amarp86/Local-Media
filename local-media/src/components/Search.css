@@ -1,5 +1,6 @@
 .search {
   padding: 10px;
+  height: 100vh;
 }
 .search-results-container {
   border: 2px solid black;

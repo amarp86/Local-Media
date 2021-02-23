@@ -46,7 +46,7 @@ function Form(props) {
       await axios.post(baseURL, { fields }, config);
     }
 
-    console.log(fields);
+    //console.log(fields);
     props.setToggleFetch((currentValue) => !currentValue);
     history.push("/reviews");
   };
